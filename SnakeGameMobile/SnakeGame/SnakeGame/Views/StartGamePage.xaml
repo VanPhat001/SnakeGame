@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SnakeGame.Views.StartGamePage">
+
+    <Grid>
+        <Grid x:Name="gameBoard" RowSpacing="0" ColumnSpacing="0" IsEnabled="True">
+        </Grid>
+
+        <Grid HorizontalOptions="End" VerticalOptions="End" Margin="0,0,15,15" BackgroundColor="Transparent"
+              RowDefinitions="40,40" RowSpacing="-5"
+              ColumnDefinitions="44,80,44" ColumnSpacing="-5">
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="TextColor" Value="Blue"></Setter>
+                    <Setter Property="Padding" Value="0,0,0,0"></Setter>
+                    <Setter Property="Margin" Value="0,0,0,0"></Setter>
+                </Style>
+            </Grid.Resources>
+            
+            <Button Text="Up" Grid.Row="0" Grid.Column="1"
+                    Clicked="ButtonUp_Clicked"></Button>
+            
+            <Button Text="Down" Grid.Row="1" Grid.Column="1"
+                    Clicked="ButtonDown_Clicked"></Button>
+            
+            <Button Text="Left" Grid.Row="0" Grid.Column="0" Grid.RowSpan="2"
+                    Clicked="ButtonLeft_Clicked"></Button>
+            
+            <Button Text="Right" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
+                    Clicked="ButtonRight_Clicked"></Button>
+        </Grid>
+    </Grid>
+
+
+</ContentPage>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SnakeGame.Views.SettingPage">
+
+    <Grid RowDefinitions="1.5*,1*,1*,1*,2*">
+
+        <!--row 0-->
+        <Label Text="Setting page" TextColor="DarkBlue" FontSize="Large" FontAttributes="Bold"
+               HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+               Grid.Row="0">            
+        </Label>
+
+        <!--row 1-->
+        <Grid Grid.Row="1" ColumnDefinitions="100,*,100" Padding="30,0,20,0">
+            <Label Grid.Column="0" Text="Rows:" VerticalOptions="Center"
+                   FontSize="16" FontAttributes="Bold" TextColor="DarkBlue"></Label>
+
+            <Slider Grid.Column="1" Maximum="{Binding MaxRows}" Value="{Binding Rows}" VerticalOptions="Center"></Slider>
+            
+            <Label Grid.Column="2" VerticalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Rows}"></Span>
+                            <Span Text="/"></Span>
+                            <Span Text="{Binding MaxRows}"></Span>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+
+        <!--row 2-->
+        <Grid Grid.Row="2" ColumnDefinitions="100,*,100" Padding="30,0,20,0">
+            <Label Grid.Column="0" Text="Columns:" VerticalOptions="Center"
+                   FontSize="16" FontAttributes="Bold" TextColor="DarkBlue"></Label>
+
+            <Slider Grid.Column="1" Maximum="{Binding MaxCols}" Value="{Binding Cols}" VerticalOptions="Center"></Slider>
+
+            <Label Grid.Column="2" VerticalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Cols}"></Span>
+                            <Span Text="/"></Span>
+                            <Span Text="{Binding MaxCols}"></Span>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+
+        <!--row 3-->
+        <Grid Grid.Row="3" ColumnDefinitions="100,*,100" Padding="30,0,20,0">
+            <Label Grid.Column="0" Text="Speed:" VerticalOptions="Center"
+                   FontSize="16" FontAttributes="Bold" TextColor="DarkBlue"></Label>
+
+            <Slider Grid.Column="1" Maximum="{Binding MaxSpeed}" Value="{Binding Speed}" VerticalOptions="Center"></Slider>
+
+            <Label Grid.Column="2" VerticalOptions="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="{Binding Speed}"></Span>
+                            <Span Text="/"></Span>
+                            <Span Text="{Binding MaxSpeed}"></Span>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+
+        <!--row 4-->
+        <Button Grid.Row="4" Text="Reset" Command="{Binding ResetCommand}" VerticalOptions="End">            
+        </Button>
+    </Grid>
+    
+</ContentPage>

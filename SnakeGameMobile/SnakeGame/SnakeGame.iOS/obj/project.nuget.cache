@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ekeG3bEikAU5xm/fzHuyl0fM14TIccWE6ORSFJ/5v0uLvU+6+8jkhhMc5DsGmjDeGEa6+326sIwDnItJkaDTsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\Temp_Code\\SnakeGame\\SnakeGame\\SnakeGame.iOS\\SnakeGame.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

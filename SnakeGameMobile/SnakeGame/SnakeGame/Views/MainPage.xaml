@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SnakeGame.Views.MainPage">
+
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="1.7*"/>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="Blue"></Setter>
+                <Setter Property="WidthRequest" Value="400"></Setter>
+                <Setter Property="FontSize" Value="18"></Setter>
+                <Setter Property="FontAttributes" Value="Bold"></Setter>
+                <Setter Property="HorizontalOptions" Value="Center"></Setter>
+                <Setter Property="Padding" Value="0,0,0,0"></Setter>
+                <Setter Property="Margin" Value="0,0,0,0"></Setter>
+            </Style>
+        </Grid.Resources>
+
+        <Button Grid.Row="1" Text="Start"
+                Clicked="ButtonClicked_StartGame">
+        </Button>
+
+        <Button Grid.Row="2" Text="Setting"
+                Clicked="ButtonClicked_Setting">
+        </Button>
+
+        <Button Grid.Row="3" Text="Quit" x:Name="btnQuit"
+                Clicked="ButtonClicked_Quit">
+        </Button>
+    </Grid>
+
+</ContentPage>

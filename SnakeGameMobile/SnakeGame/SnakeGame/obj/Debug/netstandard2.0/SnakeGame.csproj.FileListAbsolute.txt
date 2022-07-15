@@ -1,0 +1,17 @@
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\bin\Debug\netstandard2.0\SnakeGame.deps.json
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\bin\Debug\netstandard2.0\SnakeGame.dll
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\bin\Debug\netstandard2.0\SnakeGame.pdb
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.dll
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\refint\SnakeGame.dll
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\SnakeGame.pdb
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\ref\SnakeGame.dll
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\Views\SettingPage.xaml.g.cs
+C:\Users\Admin\Desktop\Temp_Code\SnakeGame\SnakeGame\SnakeGame\obj\Debug\netstandard2.0\Views\StartGamePage.xaml.g.cs
